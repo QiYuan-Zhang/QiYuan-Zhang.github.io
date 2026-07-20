@@ -20,6 +20,10 @@ description:      ''
 url:              https://qiyuan-zhang.github.io
 baseurl:          ''
 
+# Publish the static runtime used by the standalone AI portfolio pages.
+include:
+  - "_next"
+
 author:
   name:           'QiYuan Zhang'
 

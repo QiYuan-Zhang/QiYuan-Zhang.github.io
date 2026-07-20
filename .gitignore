@@ -14,3 +14,16 @@ _site/
 .jekyll-cache/
 .codex/
 
+# Standalone AI portfolio pages and their static export assets.
+!__next*.txt
+!qyflow.txt
+!qyasst.txt
+!portfolio/*.txt
+!qyflow/*.txt
+!qyasst/*.txt
+!images/qyflow/*.png
+!images/qyasst/*.png
+!icon-light-32x32.png
+!icon-dark-32x32.png
+!apple-icon.png
+
