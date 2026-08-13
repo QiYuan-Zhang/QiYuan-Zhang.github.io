@@ -7,7 +7,8 @@
 
   const languageSwitchStyles = document.createElement("style");
   languageSwitchStyles.textContent =
-    "@media (max-width: 767px){.qy-lang-switch-desktop{display:none!important}}";
+    "@media (max-width: 767px){.qy-lang-switch-desktop{display:none!important}}" +
+    "#qyflow-desktop>div.relative.z-10,#host-monitor>div.relative.z-10,#telegram-bots>div.relative.z-10{padding-left:clamp(1.5rem,3vw,3rem);padding-right:clamp(1.5rem,3vw,3rem)}";
   document.head.appendChild(languageSwitchStyles);
 
   const translations = Object.freeze({
